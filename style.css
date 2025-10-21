@@ -1,0 +1,79 @@
+:root {
+  --azul-marinho: #002244;
+  --branco: #ffffff;
+  --verde: #00cc88;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: var(--branco);
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 0;
+}
+
+.hero {
+  background-color: var(--azul-marinho);
+  color: var(--branco);
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.hero p {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: var(--verde);
+  color: var(--branco);
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #00b377;
+}
+
+.section {
+  background-color: var(--branco);
+  padding: 60px 0;
+}
+
+.section.alt {
+  background-color: #f9f9f9;
+}
+
+.section h2 {
+  color: var(--azul-marinho);
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.footer {
+  background-color: var(--azul-marinho);
+  color: var(--branco);
+  text-align: center;
+  padding: 20px 0;
+}
